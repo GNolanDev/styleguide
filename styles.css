@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0 10%;
@@ -18,25 +22,34 @@ body {
   width: 32%;
   text-align: center;
   margin: 20px auto;
-  min-height: 100px;
+  min-height: 120px;
+  vertical-align: bottom;
 }
 
-.cool-blue {
-  background-color: #2d5dcc;
+.darktheme-background {
+  background-color: #121212;
   color: #fff;
 }
 
-.pink {
-  background-color: #d957d9;
-  color: #000;
+.darktheme-content {
+  background-color: #b39ddb;
+  color: black;
 }
 
-.mint-green {
-  background-color: #4fe0b0;
+.level1 {
+  opacity: 0.95;
 }
 
-.beige {
-  background-color: #efd9ca;
+.level2 {
+  opacity: 0.9;
+}
+
+.level3 {
+  opacity: 0.85;
+}
+
+.level4 {
+  opacity: 0.8;
 }
 
 .font-panel {
